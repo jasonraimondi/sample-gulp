@@ -88,7 +88,7 @@ Delete the `./dist` directory.
 
 ---
 
-### Styles
+## Styles
 The project comes with SASS, Autoprefixer and Sourcemaps ready to go. Everything works with the `--production` flag.
 
 ```bash
@@ -98,7 +98,7 @@ $ gulp sass --production
 ```
 Default run of sass styles
 
-#### Audit Sass
+## Audit Sass
 
 ```bash
 $ gulp sass:audit
@@ -107,7 +107,7 @@ Uses [Parker](https://github.com/katiefenn/parker) to audit sass files.  Parker 
 
 ---
 
-### Scripts
+## Scripts
 The project comes with both the traditional Javascript tasks of Uglify,  Concat and Sourcemaps (under the 'javascript' namespace) and also Browserify. Everything works with the `--production` flag.
 
 ```bash
@@ -117,7 +117,7 @@ $ gulp javascript --production
 ```
 Traditional Javascript tasks of Uglify and Concat.
 
-#### Browserify
+### Browserify
 
 ```bash
 $ gulp browserify
@@ -128,7 +128,7 @@ Traditional Javascript tasks of Uglify and Concat.
 
 ---
 
-### Linter
+## Linter
 The project comes with both SASS and JS linters.
 
 #### Default Lint
